@@ -17,7 +17,7 @@ func Andar(Vetor: [[Int]]) {
         print("index =", index)
         let direcao = inputs[index]
         switch direcao {
-        case 1: //  esquerda
+        case 1: // ir para a esquerda
             if j > 0 {
                 j -= 1
             } else {
